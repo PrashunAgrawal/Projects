@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="css/ur.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> 
+  </head>
+  <body>
+  <form class="form" action="ur.jsp" method="post">
+    <i class="fas fa-user-plus"></i>
+    <input class="user-input" type="text" name="fullname" placeholder="Fullname" required>
+    <input class="user-input" type="text" name="username" placeholder="Username" required>
+    <input class="user-input" type="email" name="email" placeholder="Email" required>
+    <input class="user-input" type="text" name="address" placeholder="Address" required>
+    <input class="user-input" type="tel" name="phone" placeholder="Phone No" pattern="[789][0-9]{9}" required>
+    <input class="user-input" type="password" name="password" placeholder="Create Password" required>
+    <input class="btn" type="submit" name="" value="SIGN UP">
+    <div class="options-02">
+    <p>Already Registered? <a href="ul.jsp">Login</a></p>
+    </div>
+  </form>
+</body>
+</html>
